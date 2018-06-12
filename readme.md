@@ -32,3 +32,21 @@ module.exports = function(config) {
 ## Limits
 
 This does not cover the case where the module is not loaded correctly. No message is logged by the plugin in that case, look at the console.
+
+## Links with karma
+
+I love the karma project, and that is why I did develop this module. It took me 30 minutes to make it, tests included, which is not a lot of time.
+
+Could I fix the "es6 modules" PR myself? I tried, checkout the karma code, and had a look into it, but couldn't manage to fix the code after hours. So I let it go to people that
+have great knowledge, and I deliver what I need: a fix today.
+
+I say to the karma team: please fix karma to load es6 modules... That would be great ! And this module will then be not necessary anymore, and that would be a success for me.
+
+## To test
+
+To test this framework:
+
+```lang=javascript
+npm run link
+npm run test
+```
