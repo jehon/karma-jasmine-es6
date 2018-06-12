@@ -1,0 +1,42 @@
+{
+  "name": "karma-jasmine-es6",
+  "version": "1.0.0",
+  "author": "Jean Honlet (https://github.com/jehon)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jehon/karma-jasmine-es6.git"
+  },
+  "keywords": [
+    "jasmine",
+    "web components",
+    "karma",
+    "testing",
+    "es6",
+    "modules",
+    "import"
+  ],
+  "description": "Allow web components to be tested in karma-jasmine",
+  "bugs": "https://github.com/jehon/karma-jasmine-es6/issues",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "fs-extra": "^6.0.1",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.1.2"
+  },
+  "scripts": {
+    "link": "node install.js",
+    "test": "npm run link && karma start --single-run",
+    "test-continuously": "karma start",
+    "eslint": "eslint"
+  },
+  "dependencies": {
+    "link": "^0.1.5"
+  }
+}
