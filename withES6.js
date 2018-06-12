@@ -7,7 +7,7 @@ const initStart = window.__karma__.start;
 window.__karma__.start = function() {
 	if (window.addEventListener) {
 		document.addEventListener('DOMContentLoaded', function() {
-			console.warn('Modules should be loaded, start it');
+			console.info('Modules should be loaded, start it');
 			initStart();
 		});
 	} else {
