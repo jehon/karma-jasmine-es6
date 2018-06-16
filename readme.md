@@ -1,4 +1,5 @@
 # karma-jasmine-es6
+[![Build Status](https://travis-ci.org/jehon/karma-jasmine-es6.svg?branch=master)](https://travis-ci.org/jehon/karma-jasmine-es6)
 
 The system here is a *hack* while waiting for karma to deliver a fix. A PR is currently under work here: [karma#2834](https://github.com/karma-runner/karma/pull/2834).
 
