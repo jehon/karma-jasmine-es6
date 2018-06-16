@@ -1,0 +1,19 @@
+exclude_paths:
+- "node_modules/"
+- ".eslintrc.js"
+- ".codeclimate.yml"
+- ".travis.yml"
+- "karma.conf.js"
+- "tests/"
+
+ratings:
+  paths:
+    - src/**
+
+engines:
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+  fixme:
+    enabled: true
