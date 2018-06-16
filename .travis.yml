@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - "node"
+
+addons:
+  chrome: stable
+
+install:
+  - npm install
+  - npm install codeclimate-test-reporter
+
+script:
+  - npm run test
+
+after_success:
+  - codeclimate-test-reporter < target/lcov.info
