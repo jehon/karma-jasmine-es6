@@ -1,5 +1,7 @@
 # karma-jasmine-es6
 [![Build Status](https://travis-ci.org/jehon/karma-jasmine-es6.svg?branch=master)](https://travis-ci.org/jehon/karma-jasmine-es6)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ad8908be8e6f988d2fbb/maintainability)](https://codeclimate.com/github/jehon/karma-jasmine-es6/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ad8908be8e6f988d2fbb/test_coverage)](https://codeclimate.com/github/jehon/karma-jasmine-es6/test_coverage)
 
 The system here is a *hack* while waiting for karma to deliver a fix. A PR is currently under work here: [karma#2834](https://github.com/karma-runner/karma/pull/2834).
 
