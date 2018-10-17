@@ -5,6 +5,11 @@
 
 The system here is a *hack* while waiting for karma to deliver a fix. A PR is currently under work here: [karma#2834](https://github.com/karma-runner/karma/pull/2834).
 
+## Update
+
+2018-10-17: It is now fixed by https://github.com/karma-runner/karma/pull/3072, we wait that a new version with that patch included is delivered.
+
+
 ## Installation
 
 This library has no runtime depandancies. But if you need to test web components, you probably will need the polyfills.
