@@ -1,4 +1,7 @@
 # karma-jasmine-es6
+
+OBSOLETE (2020-10-14): the PR has been merged, this should not be used anymore
+
 [![Build Status](https://travis-ci.com/jehon/karma-jasmine-es6.svg?branch=master)](https://travis-ci.com/jehon/karma-jasmine-es6)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ad8908be8e6f988d2fbb/maintainability)](https://codeclimate.com/github/jehon/karma-jasmine-es6/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ad8908be8e6f988d2fbb/test_coverage)](https://codeclimate.com/github/jehon/karma-jasmine-es6/test_coverage)
